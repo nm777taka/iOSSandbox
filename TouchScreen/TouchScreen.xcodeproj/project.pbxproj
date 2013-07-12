@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E629267492ACCD49D78FC90 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629E7553EDEF7CDCC00FC9 /* SenTestingKit.framework */; };
+		7E62928208634D8DE758AC35 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6299DC057A5D5A95C938AE /* Default-568h@2x.png */; };
+		7E6292F926C7C416A32AB603 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629BAA4E82C354FDCF07C4 /* CoreGraphics.framework */; };
+		7E6293EAEA14770FAC5F00A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E6290643277590F86E96448 /* InfoPlist.strings */; };
+		7E6293F10B3F7AE1B9154B0C /* TouchScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629F7CDCAB9AE4AF7F34C2 /* TouchScreenTests.m */; };
+		7E6295308F1B78DACAC4CDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E62912F5F4C0ADE7B09F40B /* Foundation.framework */; };
+		7E6297B923669BBBC4521237 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6291EAF6D4965D261AF010 /* UIKit.framework */; };
+		7E62992FFCCE6B4B55AB45BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6291EAF6D4965D261AF010 /* UIKit.framework */; };
+		7E629A20304BDF788E0541CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629289EFCECAC1684F2C01 /* main.m */; };
+		7E629ADA9705314065B41A5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6292001AC73089C84F6EF0 /* AppDelegate.m */; };
+		7E629B297E90D2C583D2ADC1 /* InteractiveWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E62902D8D1202447033C110 /* InteractiveWindow.m */; };
+		7E629CC5C1F424BDCB9101E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E62907084C89AA899151B76 /* InfoPlist.strings */; };
+		7E629DDEC5DB71400CB81B67 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629554FBA79C31A6B937EB /* Default@2x.png */; };
+		7E629E7B25DC21A1A8663FA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629533A60F2702D17B050C /* Default.png */; };
+		7E629F02A63BE83A743DF972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E62912F5F4C0ADE7B09F40B /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E62957FCC03F0D1873B24E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6292ACD7D59C7EF54BB0FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E629DC98A59C1EBDC9D1329;
+			remoteInfo = TouchScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E62902D8D1202447033C110 /* InteractiveWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveWindow.m; sourceTree = "<group>"; };
+		7E629107ED4BE7E374CF002B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E62912F5F4C0ADE7B09F40B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E62913731A5CC84D0830BD6 /* TouchScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TouchScreenTests-Info.plist"; sourceTree = "<group>"; };
+		7E6291EAF6D4965D261AF010 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E6292001AC73089C84F6EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E62922BD10D1202BE521D28 /* TouchScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E629289EFCECAC1684F2C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E6292FBBA36BA9D9286F388 /* TouchScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "TouchScreen-Info.plist"; sourceTree = "<group>"; };
+		7E629533A60F2702D17B050C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7E6295419928C88398E89FE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E629554FBA79C31A6B937EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7E62957085F55C6F8D4B4FB0 /* InteractiveWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveWindow.h; sourceTree = "<group>"; };
+		7E6299D168B229CB5574F599 /* TouchScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchScreen-Prefix.pch"; sourceTree = "<group>"; };
+		7E6299DC057A5D5A95C938AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7E629AD033DB374CE78A12A2 /* TouchScreenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchScreenTests.h; sourceTree = "<group>"; };
+		7E629BAA4E82C354FDCF07C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E629C0D9666E21C983BED82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E629E7553EDEF7CDCC00FC9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E629F7CDCAB9AE4AF7F34C2 /* TouchScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchScreenTests.m; sourceTree = "<group>"; };
+		7E629F911F9523868B77ABBC /* TouchScreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchScreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E62951D734633D25CC60771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6297B923669BBBC4521237 /* UIKit.framework in Frameworks */,
+				7E6295308F1B78DACAC4CDD3 /* Foundation.framework in Frameworks */,
+				7E6292F926C7C416A32AB603 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62998CA0BFBADC0737EACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E629267492ACCD49D78FC90 /* SenTestingKit.framework in Frameworks */,
+				7E62992FFCCE6B4B55AB45BD /* UIKit.framework in Frameworks */,
+				7E629F02A63BE83A743DF972 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6293D71E2BF9287E62587A /* TouchScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6299A5813A2FCBCC67B4E8 /* Supporting Files */,
+				7E629AD033DB374CE78A12A2 /* TouchScreenTests.h */,
+				7E629F7CDCAB9AE4AF7F34C2 /* TouchScreenTests.m */,
+			);
+			path = TouchScreenTests;
+			sourceTree = "<group>";
+		};
+		7E6294D501BE7E2D0F1C6FCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6292FBBA36BA9D9286F388 /* TouchScreen-Info.plist */,
+				7E6290643277590F86E96448 /* InfoPlist.strings */,
+				7E629289EFCECAC1684F2C01 /* main.m */,
+				7E6299D168B229CB5574F599 /* TouchScreen-Prefix.pch */,
+				7E629533A60F2702D17B050C /* Default.png */,
+				7E629554FBA79C31A6B937EB /* Default@2x.png */,
+				7E6299DC057A5D5A95C938AE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E629715CCA31751E5E4309D = {
+			isa = PBXGroup;
+			children = (
+				7E629CA5EE6CA6980D9609F0 /* Products */,
+				7E629AD789BA6E957D7B73F8 /* Frameworks */,
+				7E629A631B685AB56033E927 /* TouchScreen */,
+				7E6293D71E2BF9287E62587A /* TouchScreenTests */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6299A5813A2FCBCC67B4E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E62913731A5CC84D0830BD6 /* TouchScreenTests-Info.plist */,
+				7E62907084C89AA899151B76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E629A631B685AB56033E927 /* TouchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7E6294D501BE7E2D0F1C6FCA /* Supporting Files */,
+				7E629107ED4BE7E374CF002B /* AppDelegate.h */,
+				7E6292001AC73089C84F6EF0 /* AppDelegate.m */,
+				7E62902D8D1202447033C110 /* InteractiveWindow.m */,
+				7E62957085F55C6F8D4B4FB0 /* InteractiveWindow.h */,
+			);
+			path = TouchScreen;
+			sourceTree = "<group>";
+		};
+		7E629AD789BA6E957D7B73F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6291EAF6D4965D261AF010 /* UIKit.framework */,
+				7E62912F5F4C0ADE7B09F40B /* Foundation.framework */,
+				7E629BAA4E82C354FDCF07C4 /* CoreGraphics.framework */,
+				7E629E7553EDEF7CDCC00FC9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E629CA5EE6CA6980D9609F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E62922BD10D1202BE521D28 /* TouchScreen.app */,
+				7E629F911F9523868B77ABBC /* TouchScreenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6297F5E7174E53701DB7F5 /* TouchScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62967F413E66231933A01A /* Build configuration list for PBXNativeTarget "TouchScreenTests" */;
+			buildPhases = (
+				7E62922E1B32D720801DBA58 /* Sources */,
+				7E62998CA0BFBADC0737EACF /* Frameworks */,
+				7E629727BF70F537C0B25C09 /* Resources */,
+				7E629E16E310F2D8718549E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E62908A1642D5925E68A236 /* PBXTargetDependency */,
+			);
+			name = TouchScreenTests;
+			productName = TouchScreenTests;
+			productReference = 7E629F911F9523868B77ABBC /* TouchScreenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7E629DC98A59C1EBDC9D1329 /* TouchScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6296D80B2CBA20494DE4C5 /* Build configuration list for PBXNativeTarget "TouchScreen" */;
+			buildPhases = (
+				7E629CD7945A5A583CE76981 /* Sources */,
+				7E62951D734633D25CC60771 /* Frameworks */,
+				7E6296DC8FF636FA1CDF8193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchScreen;
+			productName = TouchScreen;
+			productReference = 7E62922BD10D1202BE521D28 /* TouchScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6292ACD7D59C7EF54BB0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 7E6297DADD5944470588A323 /* Build configuration list for PBXProject "TouchScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E629715CCA31751E5E4309D;
+			productRefGroup = 7E629CA5EE6CA6980D9609F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E629DC98A59C1EBDC9D1329 /* TouchScreen */,
+				7E6297F5E7174E53701DB7F5 /* TouchScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6296DC8FF636FA1CDF8193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6293EAEA14770FAC5F00A3 /* InfoPlist.strings in Resources */,
+				7E629E7B25DC21A1A8663FA1 /* Default.png in Resources */,
+				7E629DDEC5DB71400CB81B67 /* Default@2x.png in Resources */,
+				7E62928208634D8DE758AC35 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E629727BF70F537C0B25C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E629CC5C1F424BDCB9101E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E629E16E310F2D8718549E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E62922E1B32D720801DBA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6293F10B3F7AE1B9154B0C /* TouchScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E629CD7945A5A583CE76981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E629A20304BDF788E0541CF /* main.m in Sources */,
+				7E629ADA9705314065B41A5C /* AppDelegate.m in Sources */,
+				7E629B297E90D2C583D2ADC1 /* InteractiveWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E62908A1642D5925E68A236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E629DC98A59C1EBDC9D1329 /* TouchScreen */;
+			targetProxy = 7E62957FCC03F0D1873B24E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E6290643277590F86E96448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E629C0D9666E21C983BED82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E62907084C89AA899151B76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E6295419928C88398E89FE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E62902D00D09CAF737946CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchScreen.app/TouchScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScreen/TouchScreen-Prefix.pch";
+				INFOPLIST_FILE = "TouchScreenTests/TouchScreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		7E6294BBB20E649DA361B278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchScreen.app/TouchScreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScreen/TouchScreen-Prefix.pch";
+				INFOPLIST_FILE = "TouchScreenTests/TouchScreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7E6295737FF9785664AFA002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScreen/TouchScreen-Prefix.pch";
+				INFOPLIST_FILE = "TouchScreen/TouchScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E6296A34FFDBDDEE827135C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E629C764DD816763E2F081A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScreen/TouchScreen-Prefix.pch";
+				INFOPLIST_FILE = "TouchScreen/TouchScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E629DA814D4AB928EB21A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E62967F413E66231933A01A /* Build configuration list for PBXNativeTarget "TouchScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62902D00D09CAF737946CB /* Release */,
+				7E6294BBB20E649DA361B278 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E6296D80B2CBA20494DE4C5 /* Build configuration list for PBXNativeTarget "TouchScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E629C764DD816763E2F081A /* Release */,
+				7E6295737FF9785664AFA002 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E6297DADD5944470588A323 /* Build configuration list for PBXProject "TouchScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6296A34FFDBDDEE827135C /* Release */,
+				7E629DA814D4AB928EB21A3B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E6292ACD7D59C7EF54BB0FF /* Project object */;
+}
