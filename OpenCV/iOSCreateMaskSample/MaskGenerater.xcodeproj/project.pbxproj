@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E62905598C887CA264223BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629857C7116F3880D38329 /* Foundation.framework */; };
+		7E62906C48991CB4B39CE36E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E629CF03AB026B2DE355126 /* MainStoryboard.storyboard */; };
+		7E6291BD3826FF2ACF9E7F58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629A7CD3442ECA10446F6A /* UIKit.framework */; };
+		7E629233F74A7154C5B5CCE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629FEDD6F1C9EEF82EAB1A /* CoreGraphics.framework */; };
+		7E6294385EAA5417D210525E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629C154159E1BDCFF57096 /* ViewController.m */; };
+		7E6294742D219D7AAE12C8D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629A7CD3442ECA10446F6A /* UIKit.framework */; };
+		7E6294C9FF0FB17C7852EA2F /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629E0353B5916089E65C13 /* face.png */; };
+		7E6295114A3E8E6C55BA7268 /* mask1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6297E53F794CCCE7860065 /* mask1.png */; };
+		7E6296347DC883CAE5329A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E6298A6347C256BBFF4E95E /* InfoPlist.strings */; };
+		7E6296EDA230CA1E69B0CFCE /* UIImageMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6295E71DF813F47A1A123D /* UIImageMask.m */; };
+		7E6296F9019B5DC36F2DF334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629758EAFC3220478FA475 /* main.m */; };
+		7E629769206C3AD52876BD47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629857C7116F3880D38329 /* Foundation.framework */; };
+		7E629833FF524DE4A6BF8E59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629454D904B404CA5F078D /* Default.png */; };
+		7E629A1FCD9AB6378BE89640 /* face_hirai_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E62940FDF38E43E59E03C00 /* face_hirai_small.png */; };
+		7E629A3BC35A893AD4ABD3FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E6298B0D08DE8C2B0001A6C /* InfoPlist.strings */; };
+		7E629A427CDCF1FD6434284B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6293536E34CC0FF2994C8C /* Default@2x.png */; };
+		7E629AB96F4A4843A3E33889 /* MaskGeneraterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629BC107818C112D7ADBBF /* MaskGeneraterTests.m */; };
+		7E629B1180A05213E1C40BE7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629438F8A94F419739A20D /* SenTestingKit.framework */; };
+		7E629E35FA77F39A16C002EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6294B5CA2BA3FCFAF898DD /* AppDelegate.m */; };
+		7E629EA3B52247F220DFDFD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6297B05771E0E263E4DB18 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E629165924F09725680EAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6292C188BABC1023032727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E629A209FEEE886DD72A500;
+			remoteInfo = MaskGenerater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E629037D6E9F6C0D69C31EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E62914B13A9D63614ABE31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7E6293536E34CC0FF2994C8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7E6293D4EFAADE728B6E27DA /* MaskGeneraterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskGeneraterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E62940FDF38E43E59E03C00 /* face_hirai_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_hirai_small.png; sourceTree = "<group>"; };
+		7E62941076861034B375FD27 /* UIImageMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageMask.h; sourceTree = "<group>"; };
+		7E629435A037B67BFFC31F41 /* MaskGeneraterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskGeneraterTests.h; sourceTree = "<group>"; };
+		7E629438F8A94F419739A20D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E629454D904B404CA5F078D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7E6294B5CA2BA3FCFAF898DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E6295E71DF813F47A1A123D /* UIImageMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageMask.m; sourceTree = "<group>"; };
+		7E62964272B5A03AB6398788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E6296C757142F9D8B60FD73 /* MaskGenerater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MaskGenerater-Info.plist"; sourceTree = "<group>"; };
+		7E629758EAFC3220478FA475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E6297B05771E0E263E4DB18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7E6297E1077178B49CD24139 /* MaskGenerater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaskGenerater-Prefix.pch"; sourceTree = "<group>"; };
+		7E6297E53F794CCCE7860065 /* mask1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask1.png; sourceTree = "<group>"; };
+		7E629857C7116F3880D38329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E629A7CD3442ECA10446F6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E629BC107818C112D7ADBBF /* MaskGeneraterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskGeneraterTests.m; sourceTree = "<group>"; };
+		7E629C154159E1BDCFF57096 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E629C29F12350E2C4B0BB0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E629C879BD1D5ABBB9CC04F /* MaskGenerater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskGenerater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E629C9193DB7E321935C740 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E629E0353B5916089E65C13 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		7E629FC2F7A761F6A24878A6 /* MaskGeneraterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MaskGeneraterTests-Info.plist"; sourceTree = "<group>"; };
+		7E629FEDD6F1C9EEF82EAB1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E6293C829E6082681DEAF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6294742D219D7AAE12C8D1 /* UIKit.framework in Frameworks */,
+				7E62905598C887CA264223BB /* Foundation.framework in Frameworks */,
+				7E629233F74A7154C5B5CCE7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6296F75B9F353DA3E5DBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E629B1180A05213E1C40BE7 /* SenTestingKit.framework in Frameworks */,
+				7E6291BD3826FF2ACF9E7F58 /* UIKit.framework in Frameworks */,
+				7E629769206C3AD52876BD47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E6292B4045BBA92E4C50F06 = {
+			isa = PBXGroup;
+			children = (
+				7E6295D39A68F77910035684 /* Products */,
+				7E6293AE6A72C566426C081A /* Frameworks */,
+				7E629DE0563AFAD3AABA2DDB /* MaskGenerater */,
+				7E629C808AD53B2B64AE60BB /* MaskGeneraterTests */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6293AE6A72C566426C081A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E629A7CD3442ECA10446F6A /* UIKit.framework */,
+				7E629857C7116F3880D38329 /* Foundation.framework */,
+				7E629FEDD6F1C9EEF82EAB1A /* CoreGraphics.framework */,
+				7E629438F8A94F419739A20D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E6295D39A68F77910035684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E629C879BD1D5ABBB9CC04F /* MaskGenerater.app */,
+				7E6293D4EFAADE728B6E27DA /* MaskGeneraterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E62978463B85B0C069E5EE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E629FC2F7A761F6A24878A6 /* MaskGeneraterTests-Info.plist */,
+				7E6298B0D08DE8C2B0001A6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E6299CDC176F8C841EA33DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E6296C757142F9D8B60FD73 /* MaskGenerater-Info.plist */,
+				7E6298A6347C256BBFF4E95E /* InfoPlist.strings */,
+				7E629758EAFC3220478FA475 /* main.m */,
+				7E6297E1077178B49CD24139 /* MaskGenerater-Prefix.pch */,
+				7E629454D904B404CA5F078D /* Default.png */,
+				7E6293536E34CC0FF2994C8C /* Default@2x.png */,
+				7E6297B05771E0E263E4DB18 /* Default-568h@2x.png */,
+				7E629E0353B5916089E65C13 /* face.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E629C808AD53B2B64AE60BB /* MaskGeneraterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E62978463B85B0C069E5EE5 /* Supporting Files */,
+				7E629435A037B67BFFC31F41 /* MaskGeneraterTests.h */,
+				7E629BC107818C112D7ADBBF /* MaskGeneraterTests.m */,
+			);
+			path = MaskGeneraterTests;
+			sourceTree = "<group>";
+		};
+		7E629DE0563AFAD3AABA2DDB /* MaskGenerater */ = {
+			isa = PBXGroup;
+			children = (
+				7E6299CDC176F8C841EA33DB /* Supporting Files */,
+				7E629C29F12350E2C4B0BB0F /* AppDelegate.h */,
+				7E6294B5CA2BA3FCFAF898DD /* AppDelegate.m */,
+				7E629CF03AB026B2DE355126 /* MainStoryboard.storyboard */,
+				7E629037D6E9F6C0D69C31EF /* ViewController.h */,
+				7E629C154159E1BDCFF57096 /* ViewController.m */,
+				7E6295E71DF813F47A1A123D /* UIImageMask.m */,
+				7E62941076861034B375FD27 /* UIImageMask.h */,
+				7E62940FDF38E43E59E03C00 /* face_hirai_small.png */,
+				7E6297E53F794CCCE7860065 /* mask1.png */,
+			);
+			path = MaskGenerater;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E6291535E1243BDFF687D2D /* MaskGeneraterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62909654F86D0540BE9090 /* Build configuration list for PBXNativeTarget "MaskGeneraterTests" */;
+			buildPhases = (
+				7E629EAA40FB00480B108F2D /* Sources */,
+				7E6296F75B9F353DA3E5DBD7 /* Frameworks */,
+				7E62956960C16B5C7C2CC27F /* Resources */,
+				7E629F9E8E93BF2C593D9D68 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6298C4AAFBE3E095FF50D0 /* PBXTargetDependency */,
+			);
+			name = MaskGeneraterTests;
+			productName = MaskGeneraterTests;
+			productReference = 7E6293D4EFAADE728B6E27DA /* MaskGeneraterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7E629A209FEEE886DD72A500 /* MaskGenerater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6295CE6C44BFA4B098091F /* Build configuration list for PBXNativeTarget "MaskGenerater" */;
+			buildPhases = (
+				7E629277DDC96B430EFB965E /* Sources */,
+				7E6293C829E6082681DEAF43 /* Frameworks */,
+				7E6293F2BB9CF74ADC8A24CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskGenerater;
+			productName = MaskGenerater;
+			productReference = 7E629C879BD1D5ABBB9CC04F /* MaskGenerater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E6292C188BABC1023032727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 7E629D8EE544A71392C5042A /* Build configuration list for PBXProject "MaskGenerater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E6292B4045BBA92E4C50F06;
+			productRefGroup = 7E6295D39A68F77910035684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E629A209FEEE886DD72A500 /* MaskGenerater */,
+				7E6291535E1243BDFF687D2D /* MaskGeneraterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E6293F2BB9CF74ADC8A24CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6296347DC883CAE5329A64 /* InfoPlist.strings in Resources */,
+				7E629833FF524DE4A6BF8E59 /* Default.png in Resources */,
+				7E629A427CDCF1FD6434284B /* Default@2x.png in Resources */,
+				7E629EA3B52247F220DFDFD2 /* Default-568h@2x.png in Resources */,
+				7E62906C48991CB4B39CE36E /* MainStoryboard.storyboard in Resources */,
+				7E629A1FCD9AB6378BE89640 /* face_hirai_small.png in Resources */,
+				7E6294C9FF0FB17C7852EA2F /* face.png in Resources */,
+				7E6295114A3E8E6C55BA7268 /* mask1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E62956960C16B5C7C2CC27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E629A3BC35A893AD4ABD3FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E629F9E8E93BF2C593D9D68 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E629277DDC96B430EFB965E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6296F9019B5DC36F2DF334 /* main.m in Sources */,
+				7E629E35FA77F39A16C002EE /* AppDelegate.m in Sources */,
+				7E6294385EAA5417D210525E /* ViewController.m in Sources */,
+				7E6296EDA230CA1E69B0CFCE /* UIImageMask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E629EAA40FB00480B108F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E629AB96F4A4843A3E33889 /* MaskGeneraterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E6298C4AAFBE3E095FF50D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E629A209FEEE886DD72A500 /* MaskGenerater */;
+			targetProxy = 7E629165924F09725680EAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E6298A6347C256BBFF4E95E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E62964272B5A03AB6398788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E6298B0D08DE8C2B0001A6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E629C9193DB7E321935C740 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E629CF03AB026B2DE355126 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E62914B13A9D63614ABE31C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E629029D1302457E5C3BD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskGenerater.app/MaskGenerater";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskGenerater/MaskGenerater-Prefix.pch";
+				INFOPLIST_FILE = "MaskGeneraterTests/MaskGeneraterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7E6290B99CA7E5ABC470BADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E629512BB516E783CC6D101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskGenerater/MaskGenerater-Prefix.pch";
+				INFOPLIST_FILE = "MaskGenerater/MaskGenerater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E629974CA3FE6179E8D6C3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskGenerater/MaskGenerater-Prefix.pch";
+				INFOPLIST_FILE = "MaskGenerater/MaskGenerater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E629A4FB3D99DD8743BD49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E629EE30E166820DC691AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskGenerater.app/MaskGenerater";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskGenerater/MaskGenerater-Prefix.pch";
+				INFOPLIST_FILE = "MaskGeneraterTests/MaskGeneraterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E62909654F86D0540BE9090 /* Build configuration list for PBXNativeTarget "MaskGeneraterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E629EE30E166820DC691AD6 /* Release */,
+				7E629029D1302457E5C3BD62 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E6295CE6C44BFA4B098091F /* Build configuration list for PBXNativeTarget "MaskGenerater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E629512BB516E783CC6D101 /* Release */,
+				7E629974CA3FE6179E8D6C3F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E629D8EE544A71392C5042A /* Build configuration list for PBXProject "MaskGenerater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E629A4FB3D99DD8743BD49A /* Release */,
+				7E6290B99CA7E5ABC470BADB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E6292C188BABC1023032727 /* Project object */;
+}
