@@ -11,12 +11,15 @@
 		7E62920133F8CF4446FBC73A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6295A09A3A8E24044FE357 /* MainStoryboard.storyboard */; };
 		7E62920F5CDF3FC30A83DE72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6299810650F162C73144E3 /* CoreGraphics.framework */; };
 		7E62923A2C6A8F8B105C3CFB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629B5042CE726B83278BDE /* SenTestingKit.framework */; };
+		7E62925177F46E469E9C8965 /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6296AA3220215B6D738D1E /* mask.png */; };
 		7E629299C7F1892C4514DEF8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629D11840B1E83F07F8D76 /* Default.png */; };
+		7E6292DCDA45F00C4497C1B4 /* mask_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629A597F5E2080AC4148C9 /* mask_w.png */; };
 		7E62935177E785605472747A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6292210E337FE442418F4D /* UIKit.framework */; };
 		7E6293F7459730FDBB9E063A /* OverRenderPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629D8F00AFF744738CBC7E /* OverRenderPictureTests.m */; };
 		7E62976AE0C523FF9FF8AFEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E629DC53AE8EAD8BD7F962B /* InfoPlist.strings */; };
 		7E62977E4D088410A740DD31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629378DA7161F52454E62D /* Foundation.framework */; };
 		7E6298713D06097AC275D793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E629378DA7161F52454E62D /* Foundation.framework */; };
+		7E62997B0793D80AA5E7B1CA /* mona.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6291BF756BBFD5DD32A0DE /* mona.png */; };
 		7E6299E7AA21A42C71622B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629AF858C90306C8358CA6 /* main.m */; };
 		7E629B87DC736DC152C8A5C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E629C253205F174DB37BD82 /* InfoPlist.strings */; };
 		7E629C01252D11CF2D84312F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6292210E337FE442418F4D /* UIKit.framework */; };
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E6291BF756BBFD5DD32A0DE /* mona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mona.png; sourceTree = "<group>"; };
 		7E6292210E337FE442418F4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E6292FAB02BABDB99BA82F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		7E629378DA7161F52454E62D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,11 +47,13 @@
 		7E6295878C34803252A9B726 /* OverRenderPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverRenderPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6295C9791C5F8ACD88DE56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E629650DC64A0406858A9DB /* OverRenderPictureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverRenderPictureTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6296AA3220215B6D738D1E /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 		7E62970E0D6F646734CA71E5 /* OverRenderPicture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OverRenderPicture-Prefix.pch"; sourceTree = "<group>"; };
 		7E629873BEB0FFA2C40264B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7E6299810650F162C73144E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7E6299EE477BA022BD505DDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7E629A4A63457BE8DE1167DE /* OverRenderPicture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "OverRenderPicture-Info.plist"; sourceTree = "<group>"; };
+		7E629A597F5E2080AC4148C9 /* mask_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_w.png; sourceTree = "<group>"; };
 		7E629A78CBD4F5FB03705FB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7E629AF858C90306C8358CA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E629B1F045965963CE942E2 /* OverRenderPictureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "OverRenderPictureTests-Info.plist"; sourceTree = "<group>"; };
@@ -120,6 +126,16 @@
 			path = OverRenderPicture;
 			sourceTree = "<group>";
 		};
+		7E6296CCED4ABAA4DAE466E5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7E629A597F5E2080AC4148C9 /* mask_w.png */,
+				7E6291BF756BBFD5DD32A0DE /* mona.png */,
+				7E6296AA3220215B6D738D1E /* mask.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		7E62972F45DF4D241AAA5FB7 /* OverRenderPictureTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +173,7 @@
 				7E629BA1E19BA11CCCA0EF6A /* Frameworks */,
 				7E6295F303FC3A0056863D2F /* OverRenderPicture */,
 				7E62972F45DF4D241AAA5FB7 /* OverRenderPictureTests */,
+				7E6296CCED4ABAA4DAE466E5 /* Resource */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +260,9 @@
 				7E629CABA26E4F09E0339F97 /* Default@2x.png in Resources */,
 				7E629F06BF49423638327FAD /* Default-568h@2x.png in Resources */,
 				7E62920133F8CF4446FBC73A /* MainStoryboard.storyboard in Resources */,
+				7E6292DCDA45F00C4497C1B4 /* mask_w.png in Resources */,
+				7E62997B0793D80AA5E7B1CA /* mona.png in Resources */,
+				7E62925177F46E469E9C8965 /* mask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

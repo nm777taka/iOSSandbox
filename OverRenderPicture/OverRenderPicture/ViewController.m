@@ -17,7 +17,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	NSString *backImageFilename = @"mona.png";
+    NSString *fromtImageFileName = @"mask.png";
+
+
+    UIImage *backImage = [UIImage imageNamed:backImageFilename];
+    UIImageView *backView = [[UIImageView alloc] initWithImage:backImage];
+
+    UIImage *fromtImage = [UIImage imageNamed:fromtImageFileName];
+    UIImageView *frontView = [[UIImageView alloc] initWithImage:fromtImage];
+
+    [self.view addSubview:backView];
+    [self.view addSubview:frontView];
+
+
 }
 
 - (void)didReceiveMemoryWarning
