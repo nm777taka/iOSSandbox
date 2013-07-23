@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "GradationView.h"
+#import "LBGradient.h"
+
 
 @interface ViewController ()
 
@@ -17,7 +20,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    GradationView *view = [[GradationView alloc] init];
+    [self.view addSubview:view];
+
 }
 
 - (void)didReceiveMemoryWarning

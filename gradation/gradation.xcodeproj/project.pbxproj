@@ -15,14 +15,18 @@
 		7E6293CD83474B34E4DFACF6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6291CECC5C72B7342B9E99 /* MainStoryboard.storyboard */; };
 		7E62949D5121D4F87D6A794F /* gradationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629C099255B138170DA391 /* gradationTests.m */; };
 		7E629633E0B83BEA261E6338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E62918FFD895A50DD34E453 /* UIKit.framework */; };
+		7E62967D07028299B0C4A7A7 /* LBGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629B256E727499D946211A /* LBGradient.m */; };
 		7E62969C8AE92068DA1D923C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629D2180B52ED82F241ECF /* main.m */; };
-		7E629860F685200C0D021D5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6292AE331AFE631A359D1F /* ViewController.m */; };
+		7E629860F685200C0D021D5F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E6292AE331AFE631A359D1F /* ViewController.mm */; };
 		7E6299F8A37ECEDC9B6220B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629043886A1F36229AD1F4 /* Default@2x.png */; };
 		7E629AC2E2B75A2740B31688 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E62918FFD895A50DD34E453 /* UIKit.framework */; };
 		7E629B42AC533289247D8D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6299451ADDA5DE147A18E5 /* Foundation.framework */; };
+		7E629B8279672FCA8B866F3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6295F8AD36BBF3A3608B6A /* CoreGraphics.framework */; };
 		7E629BB6BDF716B7E6DF0646 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E629A19327CE7B40661C1D0 /* InfoPlist.strings */; };
 		7E629CCC60733F1409D36290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6299ED1E589F020ABEE152 /* AppDelegate.m */; };
+		7E629EC8620AC3EB09AAB8BE /* GradationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E629B0A6E935C827E6C91C7 /* GradationView.m */; };
 		7E629EE9162895ED18C1A086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E629C007375E2E2C28F4FC8 /* InfoPlist.strings */; };
+		7E629F986541976A57CD1A72 /* resized.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E629413AE53F24AB7A35458 /* resized.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +41,11 @@
 
 /* Begin PBXFileReference section */
 		7E629043886A1F36229AD1F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7E629119D228D647CC59FE21 /* GradationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradationView.h; sourceTree = "<group>"; };
 		7E62918FFD895A50DD34E453 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E6291BD3488E8C0372EB85F /* gradationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E6292AE331AFE631A359D1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E6292AE331AFE631A359D1F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		7E629413AE53F24AB7A35458 /* resized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resized.png; sourceTree = "<group>"; };
 		7E62942F2DB59229425F0941 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7E6295A7FCFC8EE6B5A0B001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E6295F8AD36BBF3A3608B6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,6 +55,9 @@
 		7E6298FB4E6D82BC719DCB67 /* gradation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "gradation-Info.plist"; sourceTree = "<group>"; };
 		7E6299451ADDA5DE147A18E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E6299ED1E589F020ABEE152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E629A496E83BD6C63B81010 /* LBGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBGradient.h; sourceTree = "<group>"; };
+		7E629B0A6E935C827E6C91C7 /* GradationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradationView.m; sourceTree = "<group>"; };
+		7E629B256E727499D946211A /* LBGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBGradient.m; sourceTree = "<group>"; };
 		7E629BFEA387AE3B02C65AFD /* gradationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "gradationTests-Info.plist"; sourceTree = "<group>"; };
 		7E629C099255B138170DA391 /* gradationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gradationTests.m; sourceTree = "<group>"; };
 		7E629C5BE79FF658FB873179 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -78,12 +87,21 @@
 				7E629633E0B83BEA261E6338 /* UIKit.framework in Frameworks */,
 				7E629B42AC533289247D8D09 /* Foundation.framework in Frameworks */,
 				7E62900EBAAA8BAD5BC9DBE7 /* CoreGraphics.framework in Frameworks */,
+				7E629B8279672FCA8B866F3D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E6290C0FA07C77926BF1153 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7E629413AE53F24AB7A35458 /* resized.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		7E629147465135BFE99481B1 /* gradationTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +142,7 @@
 				7E62985C39196F9F251C3B11 /* Frameworks */,
 				7E629F916E83F5467F1707AA /* gradation */,
 				7E629147465135BFE99481B1 /* gradationTests */,
+				7E6290C0FA07C77926BF1153 /* Resource */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +174,11 @@
 				7E6299ED1E589F020ABEE152 /* AppDelegate.m */,
 				7E6291CECC5C72B7342B9E99 /* MainStoryboard.storyboard */,
 				7E629C5BE79FF658FB873179 /* ViewController.h */,
-				7E6292AE331AFE631A359D1F /* ViewController.m */,
+				7E6292AE331AFE631A359D1F /* ViewController.mm */,
+				7E629B0A6E935C827E6C91C7 /* GradationView.m */,
+				7E629119D228D647CC59FE21 /* GradationView.h */,
+				7E629B256E727499D946211A /* LBGradient.m */,
+				7E629A496E83BD6C63B81010 /* LBGradient.h */,
 			);
 			path = gradation;
 			sourceTree = "<group>";
@@ -235,6 +258,7 @@
 				7E6299F8A37ECEDC9B6220B5 /* Default@2x.png in Resources */,
 				7E6291E4B7343381B35537B8 /* Default-568h@2x.png in Resources */,
 				7E6293CD83474B34E4DFACF6 /* MainStoryboard.storyboard in Resources */,
+				7E629F986541976A57CD1A72 /* resized.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +295,9 @@
 			files = (
 				7E62969C8AE92068DA1D923C /* main.m in Sources */,
 				7E629CCC60733F1409D36290 /* AppDelegate.m in Sources */,
-				7E629860F685200C0D021D5F /* ViewController.m in Sources */,
+				7E629860F685200C0D021D5F /* ViewController.mm in Sources */,
+				7E629EC8620AC3EB09AAB8BE /* GradationView.m in Sources */,
+				7E62967D07028299B0C4A7A7 /* LBGradient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +354,7 @@
 				GCC_PREFIX_HEADER = "gradation/gradation-Prefix.pch";
 				INFOPLIST_FILE = "gradation/gradation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../../../04_Lib/iOS/LBGradient\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -356,6 +383,7 @@
 				GCC_PREFIX_HEADER = "gradation/gradation-Prefix.pch";
 				INFOPLIST_FILE = "gradation/gradation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../../../04_Lib/iOS/LBGradient\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -443,6 +471,7 @@
 				7E629DD46750DB7DC3D0C78F /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E629DCC752CED761ACBB463 /* Build configuration list for PBXProject "gradation" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +489,7 @@
 				7E6296C477547588F3A24C32 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
