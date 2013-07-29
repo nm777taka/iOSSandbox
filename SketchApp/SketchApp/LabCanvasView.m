@@ -8,6 +8,24 @@
 
 #import "LabCanvasView.h"
 
-@implementation LabCanvasView : UIView
+@implementation LabCanvasView : UIView{
+    UIImage* _canvas;
+}
+- (void)drawRect:(CGRect)rect {
+    _canvas = [self canvasImage];
+    [_canvas drawAtPoint:CGPointMake(0, 0)];
+}
+-(UIImage*)canvasImage{
+    UIGraphicsBeginImageContext(self.bounds.size);
+    [[UIColor redColor] setFill];
+
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextFillEllipseInRect(context, self.bounds);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+
+}
+
 
 @end

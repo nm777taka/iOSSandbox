@@ -1,12 +1,5 @@
-//
-//  LabAppDelegate.m
-//  SketchApp
-//
-//  Created by Seijiro on 2013/07/29.
-//  Copyright (c) 2013年 seijiro.ozawa. All rights reserved.
-//
-
 #import "LabAppDelegate.h"
+#import "LabCanvasView.h"
 
 @implementation LabAppDelegate
 
@@ -15,6 +8,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+
+
+    LabCanvasView *labCanvasView = [[LabCanvasView alloc] initWithFrame:CGRectMake(10, 100, 300, 200)];
+    [self.window addSubview:labCanvasView];
+
     [self.window makeKeyAndVisible];
     return YES;
 }
