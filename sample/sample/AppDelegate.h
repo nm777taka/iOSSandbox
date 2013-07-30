@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  gradation
+//  sample
 //
-//  Created by Seijiro on 2013/07/18.
-//  Copyright (c) 2013 Seijiro. All rights reserved.
+//  Created by Seijiro on 2013/07/30.
+//  Copyright (c) 2013年 seijiro.ozawa. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

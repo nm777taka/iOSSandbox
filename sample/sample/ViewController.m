@@ -1,15 +1,12 @@
 //
 //  ViewController.m
-//  gradation
+//  sample
 //
-//  Created by Seijiro on 2013/07/18.
-//  Copyright (c) 2013 Seijiro. All rights reserved.
+//  Created by Seijiro on 2013/07/30.
+//  Copyright (c) 2013年 seijiro.ozawa. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "GradationView.h"
-#import "LBGradient.h"
-
 
 @interface ViewController ()
 
@@ -20,9 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    GradationView *view = [[GradationView alloc] init];
-    [self.view addSubview:view];
-
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning

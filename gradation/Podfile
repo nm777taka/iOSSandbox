@@ -1,4 +1,0 @@
-platform:ios
-
-pod 'LBGradient' ,:git=>'https://github.com/hosokawa0825/LBGradientSpec.git'
-

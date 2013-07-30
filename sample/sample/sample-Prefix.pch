@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'gradation' target in the 'gradation' project
+// Prefix header for all source files of the 'sample' target in the 'sample' project
 //
 
 #import <Availability.h>
@@ -10,7 +10,5 @@
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
-
     #import <Foundation/Foundation.h>
-
 #endif

@@ -34,7 +34,7 @@
                         <color key="backgroundColor" red="0.97877918600000002" green="1" blue="0.15653392960000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="4a5-IU-UsH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="217" id="EDJ-Yr-KNu"/>
-                            <constraint firstAttribute="bottom" secondItem="bg9-Wi-Vtp" secondAttribute="bottom" constant="190" id="ESi-zs-5Cv"/>
+                            <constraint firstAttribute="bottom" secondItem="bg9-Wi-Vtp" secondAttribute="bottom" constant="99" id="GnI-4C-Th5"/>
                             <constraint firstItem="4a5-IU-UsH" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="116" id="Z8a-mj-sfk"/>
                             <constraint firstItem="bg9-Wi-Vtp" firstAttribute="leading" secondItem="4a5-IU-UsH" secondAttribute="leading" type="default" id="ZeM-VP-emx"/>
                         </constraints>
@@ -60,7 +60,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NcM-Ad-bOV">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="hzx-OP-ug0"/>
+                                    <constraint firstAttribute="width" constant="60" id="8tJ-rq-QPf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="back">
@@ -72,12 +72,12 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" patternImage="0A979657-AFD2-4CEA-B949-360BDEC7F2E3" colorSpace="pattern"/>
+                        <color key="backgroundColor" patternImage="8B123F47-E84B-47A9-AAC8-61CF4FF2527B" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Wsq-91-tcq" secondAttribute="bottom" constant="238" id="HMa-ca-V3X"/>
-                            <constraint firstItem="NcM-Ad-bOV" firstAttribute="leading" secondItem="9uN-nN-SHa" secondAttribute="leading" constant="122" id="jU8-ps-1ml"/>
+                            <constraint firstAttribute="bottom" secondItem="NcM-Ad-bOV" secondAttribute="bottom" constant="14" id="PO4-R5-IyS"/>
+                            <constraint firstItem="NcM-Ad-bOV" firstAttribute="leading" secondItem="9uN-nN-SHa" secondAttribute="leading" constant="159" id="eq8-rh-VtB"/>
                             <constraint firstItem="Wsq-91-tcq" firstAttribute="leading" secondItem="9uN-nN-SHa" secondAttribute="leading" constant="128" id="kbD-MG-Qa9"/>
-                            <constraint firstAttribute="bottom" secondItem="NcM-Ad-bOV" secondAttribute="bottom" constant="151" id="t6p-hf-mLm"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -87,7 +87,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0A979657-AFD2-4CEA-B949-360BDEC7F2E3" width="256" height="256">
+        <image name="8B123F47-E84B-47A9-AAC8-61CF4FF2527B" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
