@@ -9,6 +9,4 @@
 
 @interface LabCanvasView : UIView
 
-
-
 @end

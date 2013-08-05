@@ -1,22 +1,21 @@
-#import "LabAppDelegate.h"
-#import "LabCanvasView.h"
+//
+//  AppDelegate.m
+//  Sketch_tet
+//
+//  Created by Seijiro on 2013/08/05.
+//  Copyright (c) 2013年 seijiro.ozawa. All rights reserved.
+//
 
-@implementation LabAppDelegate
+#import "AppDelegate.h"
+
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-
-
-    LabCanvasView *labCanvasView = [[LabCanvasView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-    [self.window addSubview:labCanvasView];
-
-    [self.window makeKeyAndVisible];
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
