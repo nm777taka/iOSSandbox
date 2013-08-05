@@ -1,13 +1,12 @@
-//
-//  LabViewController.h
-//  EditMask
-//
-//  Created by Seijiro on 2013/07/29.
-//  Copyright (c) 2013年 seijiro.ozawa. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
-@interface LabViewController : UIViewController
+@interface LabViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+
+@property (weak,nonatomic) IBOutlet UIImageView *picture_view;
+
+-(IBAction)pickPicture:(id)sender;
+-(void)imagePickerController:(UIImagePickerController*)picker;
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
+
 
 @end

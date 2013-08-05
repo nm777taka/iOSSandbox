@@ -17,13 +17,13 @@
 		494E00A917A6098C00F4FEC3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494E00A817A6098C00F4FEC3 /* Default@2x.png */; };
 		494E00AB17A6098C00F4FEC3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 494E00AA17A6098C00F4FEC3 /* Default-568h@2x.png */; };
 		494E00AE17A6098C00F4FEC3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494E00AC17A6098C00F4FEC3 /* MainStoryboard_iPhone.storyboard */; };
-		494E00B117A6098C00F4FEC3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494E00AF17A6098C00F4FEC3 /* MainStoryboard_iPad.storyboard */; };
 		494E00B417A6098C00F4FEC3 /* LabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E00B317A6098C00F4FEC3 /* LabViewController.m */; };
 		494E00BC17A6098C00F4FEC3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494E00BB17A6098C00F4FEC3 /* SenTestingKit.framework */; };
 		494E00BD17A6098C00F4FEC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494E009417A6098C00F4FEC3 /* UIKit.framework */; };
 		494E00BE17A6098C00F4FEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494E009617A6098C00F4FEC3 /* Foundation.framework */; };
 		494E00C617A6098C00F4FEC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 494E00C417A6098C00F4FEC3 /* InfoPlist.strings */; };
 		494E00C917A6098C00F4FEC3 /* EditMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494E00C817A6098C00F4FEC3 /* EditMaskTests.m */; };
+		49D1E7CC17AF440D00E44244 /* LabPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1E7CB17AF440D00E44244 /* LabPictureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 		494E00A817A6098C00F4FEC3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		494E00AA17A6098C00F4FEC3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		494E00AD17A6098C00F4FEC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		494E00B017A6098C00F4FEC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		494E00B217A6098C00F4FEC3 /* LabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabViewController.h; sourceTree = "<group>"; };
 		494E00B317A6098C00F4FEC3 /* LabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabViewController.m; sourceTree = "<group>"; };
 		494E00BA17A6098C00F4FEC3 /* EditMaskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditMaskTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +59,8 @@
 		494E00C517A6098C00F4FEC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		494E00C717A6098C00F4FEC3 /* EditMaskTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditMaskTests.h; sourceTree = "<group>"; };
 		494E00C817A6098C00F4FEC3 /* EditMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditMaskTests.m; sourceTree = "<group>"; };
+		49D1E7CA17AF440D00E44244 /* LabPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabPictureViewController.h; sourceTree = "<group>"; };
+		49D1E7CB17AF440D00E44244 /* LabPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabPictureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,9 +123,10 @@
 				494E00A317A6098C00F4FEC3 /* LabAppDelegate.h */,
 				494E00A417A6098C00F4FEC3 /* LabAppDelegate.m */,
 				494E00AC17A6098C00F4FEC3 /* MainStoryboard_iPhone.storyboard */,
-				494E00AF17A6098C00F4FEC3 /* MainStoryboard_iPad.storyboard */,
 				494E00B217A6098C00F4FEC3 /* LabViewController.h */,
 				494E00B317A6098C00F4FEC3 /* LabViewController.m */,
+				49D1E7CA17AF440D00E44244 /* LabPictureViewController.h */,
+				49D1E7CB17AF440D00E44244 /* LabPictureViewController.m */,
 				494E009B17A6098C00F4FEC3 /* Supporting Files */,
 			);
 			path = EditMask;
@@ -240,7 +242,6 @@
 				494E00A917A6098C00F4FEC3 /* Default@2x.png in Resources */,
 				494E00AB17A6098C00F4FEC3 /* Default-568h@2x.png in Resources */,
 				494E00AE17A6098C00F4FEC3 /* MainStoryboard_iPhone.storyboard in Resources */,
-				494E00B117A6098C00F4FEC3 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +279,7 @@
 				494E00A117A6098C00F4FEC3 /* main.m in Sources */,
 				494E00A517A6098C00F4FEC3 /* LabAppDelegate.m in Sources */,
 				494E00B417A6098C00F4FEC3 /* LabViewController.m in Sources */,
+				49D1E7CC17AF440D00E44244 /* LabPictureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +316,6 @@
 				494E00AD17A6098C00F4FEC3 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		494E00AF17A6098C00F4FEC3 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				494E00B017A6098C00F4FEC3 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		494E00C417A6098C00F4FEC3 /* InfoPlist.strings */ = {
@@ -468,6 +462,7 @@
 				494E00CE17A6098C00F4FEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494E00CF17A6098C00F4FEC3 /* Build configuration list for PBXNativeTarget "EditMaskTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +471,7 @@
 				494E00D117A6098C00F4FEC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

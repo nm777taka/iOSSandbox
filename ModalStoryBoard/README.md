@@ -1,3 +1,0 @@
-StoryBoardSample
-================
-ModalViewを試してみた。
