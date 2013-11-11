@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nyR-zO-PLH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="Button">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="buK-5b-9eu" id="sya-EH-bYd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="4vg-II-Soc">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="jgO-uJ-XiW"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="b0W-Cg-npc"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="3kG-kM-NvK"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="xDC-wN-ZUC"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="njW-qb-VCr">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="qhS-hz-oQZ"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="1HP-lt-6QS"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="DiQ-bC-XSH"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="pOn-P8-Pca"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="OE6-RB-WDt">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="hCP-Dz-hJd"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="QcG-9c-Z6u"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="aTS-y7-crJ"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="mwE-VC-j7P"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="buK-5b-9eu">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="CIU-KG-9aI"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="cds-iM-ykH"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="SXh-fa-eEc"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="Un7-4c-DMI"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
