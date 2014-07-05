@@ -137,7 +137,6 @@
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
     NSLog(@"scroll will begin");
-    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
@@ -148,7 +147,6 @@
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
 
     if(!decelerate){
-         self.view.backgroundColor = [UIColor greenColor];
         NSLog(@"scroll did end decelerate = %@", [NSNumber numberWithBool:decelerate]);
     }
     else{
@@ -160,4 +158,13 @@
     NSLog(@"Tap");
 }
 
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
+    NSLog(@"scrollViewWillBeginDecelerating");
+    self.view.backgroundColor = [UIColor greenColor];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"scrollViewDidEndDecelerating");
+}
 @end
