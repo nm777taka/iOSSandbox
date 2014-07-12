@@ -73,6 +73,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    UIImageView *imgView = (UIImageView*)[cell viewWithTag:1];
 
     if (indexPath.row % 2)
     {
@@ -83,6 +84,7 @@
     }
     NSDate *object = _objects[indexPath.row];
     cell.textLabel.text = [object description];
+    
     return cell;
 }
 
@@ -166,5 +168,26 @@
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     self.view.backgroundColor = [UIColor redColor];
     NSLog(@"scrollViewDidEndDecelerating");
+}
+
+-(CGFloat) tableView:(UITableView*)tableView heightForRowAtIndexPath:(NSIndexPath*)indexPath {
+    return 120;
+}
+
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    //cell.backgroundColor = [UIColor blueColor];
+    NSLog(@"test");
+    CGRect originFrame = cell.frame;
+    cell.alpha =0.1;
+    
+    //0.5秒かけて、もとの状態へアニメーション
+    [UIView animateWithDuration:0.5
+                          delay:0
+                        options:UIViewAnimationOptionAllowUserInteraction
+                     animations:^{
+                         cell.alpha = 1.0f;
+                         cell.frame = originFrame;
+                     } completion:nil];
 }
 @end

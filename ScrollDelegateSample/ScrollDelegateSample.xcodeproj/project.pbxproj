@@ -23,6 +23,9 @@
 		2691EBDD1967CAA600F88E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2691EBB91967CAA600F88E43 /* UIKit.framework */; };
 		2691EBE51967CAA600F88E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2691EBE31967CAA600F88E43 /* InfoPlist.strings */; };
 		2691EBE71967CAA600F88E43 /* ScrollDelegateSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2691EBE61967CAA600F88E43 /* ScrollDelegateSampleTests.m */; };
+		269E07CD1970E8910043D97E /* 61mmHEL+uHL._SL75_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 269E07CC1970E8910043D97E /* 61mmHEL+uHL._SL75_.jpg */; };
+		269E07CF1970E8B90043D97E /* actionscript@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 269E07CE1970E8B90043D97E /* actionscript@2x.png */; };
+		269E07D21970EB420043D97E /* FadeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E07D11970EB420043D97E /* FadeImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,11 @@
 		2691EBE21967CAA600F88E43 /* ScrollDelegateSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollDelegateSampleTests-Info.plist"; sourceTree = "<group>"; };
 		2691EBE41967CAA600F88E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2691EBE61967CAA600F88E43 /* ScrollDelegateSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollDelegateSampleTests.m; sourceTree = "<group>"; };
+		269E07CB1970E8890043D97E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		269E07CC1970E8910043D97E /* 61mmHEL+uHL._SL75_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "61mmHEL+uHL._SL75_.jpg"; sourceTree = "<group>"; };
+		269E07CE1970E8B90043D97E /* actionscript@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actionscript@2x.png"; sourceTree = "<group>"; };
+		269E07D01970EB420043D97E /* FadeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeImageView.h; sourceTree = "<group>"; };
+		269E07D11970EB420043D97E /* FadeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,11 @@
 		2691EBBB1967CAA600F88E43 /* ScrollDelegateSample */ = {
 			isa = PBXGroup;
 			children = (
+				269E07CE1970E8B90043D97E /* actionscript@2x.png */,
+				269E07CC1970E8910043D97E /* 61mmHEL+uHL._SL75_.jpg */,
+				269E07CB1970E8890043D97E /* AppDelegate.h */,
+				269E07D01970EB420043D97E /* FadeImageView.h */,
+				269E07D11970EB420043D97E /* FadeImageView.m */,
 				2691EBC41967CAA600F88E43 /* AppDelegate.h */,
 				2691EBC51967CAA600F88E43 /* AppDelegate.m */,
 				2691EBC71967CAA600F88E43 /* Main_iPhone.storyboard */,
@@ -237,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2691EBCC1967CAA600F88E43 /* Main_iPad.storyboard in Resources */,
+				269E07CF1970E8B90043D97E /* actionscript@2x.png in Resources */,
 				2691EBD41967CAA600F88E43 /* Images.xcassets in Resources */,
+				269E07CD1970E8910043D97E /* 61mmHEL+uHL._SL75_.jpg in Resources */,
 				2691EBC91967CAA600F88E43 /* Main_iPhone.storyboard in Resources */,
 				2691EBC01967CAA600F88E43 /* InfoPlist.strings in Resources */,
 			);
@@ -260,6 +275,7 @@
 			files = (
 				2691EBC61967CAA600F88E43 /* AppDelegate.m in Sources */,
 				2691EBCF1967CAA600F88E43 /* MasterViewController.m in Sources */,
+				269E07D21970EB420043D97E /* FadeImageView.m in Sources */,
 				2691EBC21967CAA600F88E43 /* main.m in Sources */,
 				2691EBD21967CAA600F88E43 /* DetailViewController.m in Sources */,
 			);
@@ -476,6 +492,7 @@
 				2691EBEC1967CAA700F88E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2691EBED1967CAA700F88E43 /* Build configuration list for PBXNativeTarget "ScrollDelegateSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +501,7 @@
 				2691EBEF1967CAA700F88E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
