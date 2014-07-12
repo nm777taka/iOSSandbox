@@ -9,9 +9,9 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "FeedInViewCell.h"
 
 @interface MasterViewController () {
-    NSMutableArray *_objects;
 }
 @end
 
@@ -31,31 +31,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
     UITapGestureRecognizer *singleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTap:)];
     singleTapGestureRecognizer.numberOfTapsRequired = 1;
     singleTapGestureRecognizer.enabled = YES;
     singleTapGestureRecognizer.cancelsTouchesInView = NO;
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([FeedInViewCell class]) bundle:nil] forCellReuseIdentifier:@"Cell"];
     [self.tableView addGestureRecognizer:singleTapGestureRecognizer];
 }
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)insertNewObject:(id)sender
-{
-    if (!_objects) {
-        _objects = [[NSMutableArray alloc] init];
-    }
-    [_objects insertObject:[NSDate date] atIndex:0];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
 }
 
 #pragma mark - Table View
@@ -67,24 +55,21 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    return 30;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    UIImageView *imgView = (UIImageView*)[cell viewWithTag:1];
+
 
     if (indexPath.row % 2)
     {
-        [cell setBackgroundColor:[UIColor colorWithRed:.8 green:.8 blue:1 alpha:1]];
+        //[cell setBackgroundColor:[UIColor colorWithRed:.8 green:.8 blue:1 alpha:1]];
     }
     else{
-      [cell setBackgroundColor:[UIColor clearColor]];
+      //[cell setBackgroundColor:[UIColor clearColor]];
     }
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
-    
     return cell;
 }
 
@@ -97,7 +82,6 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_objects removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
@@ -123,17 +107,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        NSDate *object = _objects[indexPath.row];
-        self.detailViewController.detailItem = object;
     }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
     }
 }
 
@@ -162,32 +141,32 @@
 
 - (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
     NSLog(@"scrollViewWillBeginDecelerating");
-    self.view.backgroundColor = [UIColor greenColor];
+    //self.view.backgroundColor = [UIColor greenColor];
+    
+    
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    self.view.backgroundColor = [UIColor redColor];
+    //self.view.backgroundColor = [UIColor redColor];
     NSLog(@"scrollViewDidEndDecelerating");
 }
 
 -(CGFloat) tableView:(UITableView*)tableView heightForRowAtIndexPath:(NSIndexPath*)indexPath {
-    return 120;
+    return 256;
 }
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    //cell.backgroundColor = [UIColor blueColor];
     NSLog(@"test");
-    CGRect originFrame = cell.frame;
-    cell.alpha =0.1;
-    
+
+    FeedInViewCell * feedInViewCell = (FeedInViewCell *)cell;
     //0.5秒かけて、もとの状態へアニメーション
-    [UIView animateWithDuration:0.5
-                          delay:0
-                        options:UIViewAnimationOptionAllowUserInteraction
-                     animations:^{
-                         cell.alpha = 1.0f;
-                         cell.frame = originFrame;
-                     } completion:nil];
+    [UIView animateWithDuration:1.0
+                          delay:1.0
+                          options:UIViewAnimationOptionAllowUserInteraction
+                          animations:^{
+                            [feedInViewCell feedIn];
+                            NSLog(@"test");
+                          } completion:nil];
 }
 @end
